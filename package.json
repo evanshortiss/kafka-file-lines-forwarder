@@ -1,0 +1,29 @@
+{
+  "name": "kafka-file-lines-forwarder",
+  "version": "1.0.0",
+  "description": "Tails a file and sends each into a Kafka Topic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanshortiss/kafka-file-lines-forwarder.git"
+  },
+  "keywords": [],
+  "author": "Evan Shortiss <evanshortiss@gmail.com> (https://evanshortiss.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanshortiss/kafka-file-lines-forwarder/issues"
+  },
+  "homepage": "https://github.com/evanshortiss/kafka-file-lines-forwarder#readme",
+  "dependencies": {
+    "barelog": "~0.2.0",
+    "env-var": "~7.0.0",
+    "kafkajs": "~1.15.0",
+    "tail": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "~14.14.43"
+  }
+}
